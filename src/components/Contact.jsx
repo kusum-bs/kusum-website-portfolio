@@ -7,7 +7,7 @@ const Contact = () => {
         <p className="my-10 text-center text-3xl lg:text-8xl">
             Interested In Working Together
         </p>
-        <p className="mx-4 mb-20 flex items-center justify-center m-8 max-w-6xl text-justify text-2xl lg:text-xl">{CONTACT.text}</p>
+        <p className="mx-4 mb-20 m-8 max-w-6xl text-2xl text-justify lg:text-xl">{CONTACT.text}</p>
         <p className="my-4 text-center text-2xl font-medium 
         text-lime-300 lg:pt-6 lg:text-5xl">
           <a href={`mailto:${CONTACT.email}`} className="hover:underline">
