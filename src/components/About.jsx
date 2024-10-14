@@ -5,7 +5,7 @@ const About = () => {
     <section id="about">
         <h2 className="my-10 text-center text-3xl lg:text-8xl"> About Me</h2>
         <div className="mx-4 mb-20 flex items-center justify-center">
-            <p className="m-8 max-w-6xl text-justify text-2xl lg:text-xl">{ABOUT}</p>
+            <p className="m-8 max-w-6xl text-2xl text-justify lg:text-xl">{ABOUT}</p>
         </div>
     </section>
   );
