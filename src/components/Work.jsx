@@ -6,10 +6,10 @@ const Work = () => {
     <div className="mx-auto max-w-6xl">
         {EXPERIENCES.map((experience, id) => (
             <div key={id} className="mx-4 mb-20">
-                <h2 className="font-medium lg:text-2xl">
+                <h2 className="m-8 max-w-6xl text-5xl lg:text-4xl font-medium lg:text-2xl">
                     {experience.company}
                 </h2>
-                <div className="flex justify-between">
+                <div className="m-8 max-w-6xl text-3xl lg:text-2xl flex justify-between">
                     <p className="py-4 tracking-wide lg:text-xl">
                         {experience.role}
                     </p>
@@ -17,7 +17,7 @@ const Work = () => {
                         {experience.year}
                     </p>
                 </div>
-                <p className="m-8 max-w-6xl text-2xl lg:text-xl">
+                <p className="m-8 max-w-6xl text-2xl text-justify lg:text-xl">
                     {experience.description}</p>
             </div>
         ))}
